@@ -1,18 +1,30 @@
 .App {
   text-align: center;
+  font-size: 80px;
+  font-family: "twaysky";
+  color: #ffffff;;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+@font-face {
+  font-family: 'twaysky';
+  src: url("./fonts/tway_sky.ttf");
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +48,4 @@
     transform: rotate(360deg);
   }
 }
+
